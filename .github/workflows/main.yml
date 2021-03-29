@@ -16,7 +16,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@vinayg-cp'
       - run: npm install
-      - run: npm run build
       - run: echo "registry=https://npm.pkg.github.com/@vinayg-cp" >> .npmrc
       - name: Publish
         env:
