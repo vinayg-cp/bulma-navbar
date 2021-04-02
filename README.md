@@ -196,3 +196,17 @@ Need to update it back to ^10.0.0 or latest.
 Typerror in storybook:
 [Issue](https://stackoverflow.com/questions/66082397/typeerror-this-getoptions-is-not-a-function)
 Downgraded sass loader to 10.1.1
+
+## Creating new Repository from this:
+
+Add a new remote:
+
+```
+git remote add original https://github.com/vinayg-cp/package-starter-with-scss.git
+```
+
+Please ensure you disable pushing to this repo by running following command:
+
+```
+git remote set-url --push original DISABLE
+```
